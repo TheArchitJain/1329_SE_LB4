@@ -10,7 +10,7 @@ class Employee:
 
 
 def sort_employee_data(employee_list, key):
-    key_mapping = {1: "age", 2: "name", 3: "salary"}
+    key_mapping = {1: "Age", 2: "Name", 3: "Salary"}
 
     if key in key_mapping:
         return sorted(employee_list, key=lambda emp: getattr(emp, key_mapping[key]))
