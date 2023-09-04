@@ -20,7 +20,7 @@ def sort_employee_data(employee_list, key):
 
 def main():
     print("E22CSEU1329 | ARCHIT JAIN")
-    print()
+    print("SOFTWARE ENGINEERING ASSIGNMENT LAB 4")
     employees = [
         Employee("161E90", "Raman", 41, 56000),
         Employee("161F91", "Himadri", 38, 67500),
